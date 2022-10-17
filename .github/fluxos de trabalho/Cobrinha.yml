@@ -1,0 +1,25 @@
+name: Generate Datas
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    name
+    runs-on
+    steps:
+      # Snake Animation
+      - uses: 
+        id: 
+        with
+          github_user_name: 01yo-yo01
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - uses: 
+        with
+          target_branch: 
+          build_dir: 
+        env
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
